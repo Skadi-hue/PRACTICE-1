@@ -1,0 +1,38 @@
+baseURL = "https://skadi-and-myata.netlify.app/"
+title = "Syllabica"
+theme = "ananke"
+languageCode = "ru-ru"
+DefaultContentLanguage = "ru"
+paginate = 3
+
+[params]
+  description = "VIDEOTEXT"
+  author = "Ульянова Э.В. 251-333"
+  reading_time = true
+  show_reading_time = true
+  custom_css = ["css/custom.css"]
+
+[[menu.main]]
+  name = "Главная"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "О проекте"
+  url = "/about/"
+  weight = 2
+
+[[menu.main]]
+  name = "Участники"
+  url = "/contributors/"
+  weight = 3
+
+[[menu.main]]
+  name = "Журнал"
+  url = "/journal/"
+  weight = 4
+
+[[menu.main]]
+  name = "Ресурсы"
+  url = "/resources/"
+  weight = 5
