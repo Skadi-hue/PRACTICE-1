@@ -11,6 +11,7 @@ paginate = 3
   reading_time = true
   show_reading_time = true
   custom_css = ["css/custom.css"]
+  favicon = "/favicon.ico"
 
 [[menu.main]]
   name = "Главная"
